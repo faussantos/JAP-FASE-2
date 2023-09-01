@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: green;
+    color: white;
+}
+
+a{
+    color: skyblue;
+}
+
+footer{
+    background-color: rgb(111, 180, 9);
+    color: black;
+}

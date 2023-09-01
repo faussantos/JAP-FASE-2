@@ -1,0 +1,138 @@
+html{
+    font-family: "Belanosima", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: rgb(20, 23, 22);
+    color: white;
+}
+
+hr{
+    border: 2px solid rgba(47, 79, 79, 0.291);
+}
+#first-line{
+    border: 2px solid #eeeeee9b;
+}
+.first-view{
+    text-align: center;
+}
+
+#logo{
+    max-width: 200px;
+    border-radius: 100%;
+}
+
+.nav{
+    background-color: #eeeeeeee;
+    padding: 1em;
+}
+
+.nav ul, .nav ul li{
+    list-style-type: none;
+    font-size: 18px;
+    display: inline;
+    margin: 2em;
+}
+
+.nav ul li a{
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.intro h1{
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+
+.intro a:hover{
+    color:red;
+    transition: 0.3s;
+}
+.intro a{
+    text-decoration: none;
+    color: white;
+}
+#descripcion{
+    margin-bottom:2em;
+    margin-top: 8em;
+    padding: 4em;
+}
+
+.experiencia{
+    text-align: center;
+}
+
+#titulo-exp{
+    width: 100%;
+    color: #eeeeeeee;
+}
+.experiencia table{
+    display: inline-block;
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+.experiencia td{
+    border-top: 1px solid #eeeeee93;
+    padding: 1em 2em 1em 2em;
+}
+
+#titulo-hab{
+    text-align: center;
+    width: 100%;
+    color: #eeeeeeee;
+}
+
+.habilidades ul{
+    margin: 50px;
+}
+
+.habilidades ul li{
+    margin: 2.5em
+}
+
+#titulo-edu{
+    text-align: center;
+    width: 100%;
+    color: #eeeeeeee;
+    margin: 1.5em 0em 1.5em 0em;
+}
+
+.educacion table{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.educacion td{
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.perfiles{
+    text-align: center;
+}
+
+#titulo-perfiles{
+    color: #eeeeee;
+}
+
+.perfiles ul li{
+    display: inline;
+    margin:0 2em 0 2em ;
+}
+
+.perfiles ul li a{
+    color: #eeeeee;
+    text-decoration: underline;
+}
+
+.perfiles ul li a:hover{
+    transition: 0.3s;
+    color: red;
+}

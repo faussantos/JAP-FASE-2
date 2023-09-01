@@ -1,0 +1,43 @@
+html{
+    background-color: lightgrey;
+    margin: 0px 150px 0px 150px;
+    font-family: arial;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+
+h2{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    font-size: 2em;
+}
+
+.p-img img{
+    float: left;
+}
+
+.p-img{
+    margin: 30px 100px -40px 100px;
+}
+
+p{
+    text-align: justify;
+    padding-left: 117px;
+    text-indent: 40px;
+    font-size: 1.1em;
+}
+
+em{
+    color: red;
+}
+
+strong{
+    background-color: white;
+}
+
+/* Facundo D'Acosta, Brisa Kuster, Francisco Bournissen, María Borges, Victoria Fenrnadez, Faustino Santos.*/

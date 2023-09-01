@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+    <body>
+        <div class="first-view">
+            <div class="nav">
+                <ul>
+                    <li><a href="#experiencia">Experiencia profesional</a></li>
+                    <li><a href="#habilidades">Habilidades y conocimientos</a></li>
+                    <li><a href="#educacion">Educación</a></li>
+                    <li><a href="#perfiles">Perfiles Sociales</a></li>
+                    <li><a href="#contacto">Contactar</a></li>
+                </ul>
+            </div>
+            <div class="intro">
+                <h1>Hola, soy <a href="mailto:faus.santos@hotmail.com">Faustino Santos</a></h1>
+                <img id=logo src="logo.png">
+                <p id="descripcion">Actualmente estoy estudinado desarrollo web en Jóvenes a Programar, curso organizado por Plan Ceibal. <br><br>Este es mi primer portafolio</p>
+                <hr id="first-line">
+            </div>
+        </div>
+        <div id="experiencia" class="experiencia">
+            <h2 id="titulo-exp">Experiencia profesional</h2>
+            <table>
+                <tr>
+                 <th>Empresa / Organización</th>
+                 <th>Cargo</th>
+                 <th>Localización</th>
+                 <th>Desde-hasta</th>
+                </tr>
+                <tr>
+                 <td>DAC</td>
+                 <td>Peón de logística</td>
+                 <td>Maldonado</td>
+                 <td>Octubre 2022 - Junio 2023</td>
+                </tr>
+                <tr>
+                 <td>Real Madrid C.F</td>
+                 <td>Lateral derecho</td>
+                 <td>Madrid (España)</td>
+                 <td>Noviembre 2013 - Marzo 2015</td>
+                </tr>
+                <tr>
+                 <td>Federación Uruguaya de Voleibol</td>
+                 <td>Central</td>
+                 <td>Montevideo</td>
+                 <td>Noviembre 2013 - Marzo 2015</td>
+                </tr>
+                <tr>
+                 <td>Google developers Group</td>
+                 <td>Coordinadora nacional</td>
+                 <td>Buenos aires (Argentina)</td>
+                 <td>Setiembre 2012 - Enero 2013</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="habilidades" id="habilidades">
+            <h2 id="titulo-hab">Habilidades y conocimientos</h2>
+            <ul>
+                <li> <strong>Desarrollo web:</strong> HTML, CSS, JavaScript (proximamente). 
+                <li> <strong>Administración:</strong> Análisis FODA</li>
+                <li> <strong>Contabilidad:</strong> Balances, Libro diario, Libro mayor, Plan de cuentas.</li>
+                <li> <strong>Inglés:</strong> B2 Aprobado.</li>
+                <li> <strong>Competencias Transversales:</strong> Empatía, trabajo en equipo, comunicación, resolución de problemas.</li>
+            </ul>
+            <hr>
+        </div>
+        <div class="educacion" id="educacion">    
+            <h2 id="titulo-edu">Educación</h2>
+            <table>
+                <tr>
+                    <th>Título</th>
+                    <th>Entidad</th>
+                    <th>Promoción</th>
+                </tr>
+                <tr>
+                    <td>Desarrollo web</td>
+                    <td>Plan Ceibal (Jóvenes a programar)</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Bachillerato Administración</td>
+                    <td>Escuela Técnica Maldonado</td>
+                    <td>2021</td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+        <div id="perfiles" class="perfiles">
+            <h2 id="titulo-perfiles">Perfiles sociales</h2>
+            <ul>
+                <li><a href="faustinosantos.com">FaustinoSantos</a></li>
+                <li><a href="github.com/faustinosantos">Github</a></li>
+                <li><a href="https://www.instagram.com/faussantoss/" target="_blank">Instagram</a></li>
+                <li><a href="linkedin.com/faustinosantos">Linkedin</a></li>
+            </ul>
+            <hr>
+        </div>
+        <div id="contacto" class="contacto">
+            <h2>Contactar</h2>
+            <form>
+                <label for="destinatario">Para:</label>
+                <input type="text" id="destinatario"><br>
+                <label for="tematica">Temática:</label>
+                <select>
+                    <option>-- Elige un tema --</option>
+                    <option>Consulta</option>
+                    <option>Propuesta</option>
+                    <option>Reporte</option>
+                    <option>Otro</option>
+                </select><br>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto"><br>
+                <label for="mensaje">Cuerpo:</label>
+                <textarea id="mensaje"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>

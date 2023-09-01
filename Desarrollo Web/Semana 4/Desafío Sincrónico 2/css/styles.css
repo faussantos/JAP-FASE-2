@@ -1,0 +1,18 @@
+/* ESTILOS DE LA PÁGINA */
+body{
+    background-color: darkcyan;
+}
+h1{
+    font-family: sans-serif;
+    color: honeydew;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(4, 114, 114);
+    width: 200px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+}
