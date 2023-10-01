@@ -7,14 +7,19 @@
 </head>
 <body>
     <form id="form_data">
-        <label for="name">Nombre</label>
-        <input type="text" id="name">
+        <div>
+        <label for="name" >Nombre</label>
+        <input type="text" id="name" name="name">
+        </div><br>
+        <div>
         <label for="lastName">Apellido</label>
-        <input type="text" id="lastName"><br><br>
+        <input type="text" id="lastName" name="lastName">
+        </div><br>
+        <div>
         <label for="birth">Fecha de nacimiento</label>
-        <input type="date" id="birth"> <br><br>
-
-        <button type="submit" id="btn">Enviar</button>
+        <input type="date" id="birth" name="birth">
+        </div><br>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 <footer>

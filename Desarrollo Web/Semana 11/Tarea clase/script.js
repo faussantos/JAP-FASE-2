@@ -1,11 +1,22 @@
-let nombre = document.getElementById("name").value
-let lastName = document.getElementById("lastName").value
-let birth = document.getElementById("birth").value
-let btn = document-getElementById("btn")
+const form = document.getElementById("form_data");
 
+form.addEventListener('submit', evento => {
+    evento.preventDefault()
 
-let data = JSON.stringify({lastName, birth, nombre})
+ const formData = new FormData(form);
 
-fetch(/jsonplaceholder.typicode.com/users, {method:'POST'})
-.then(response => {response.statusText})
-.catch(error => {console.log(error)})
+    fetch("https://jsonplaceholder.typicode.com/users", {
+        method: 'POST',
+        body: JSON.stringify(Object.fromEntries(formData)),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
